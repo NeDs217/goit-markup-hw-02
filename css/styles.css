@@ -11,6 +11,7 @@ ul, ol {
     color: #2E2F42;
 }
 .link:hover {
+    text-decoration: none;
     color: #404BBF;
 }
 .link:active {
@@ -24,16 +25,18 @@ ul, ol {
 }
 .hero-title {
     color: #FFFFFF;
-    font-size: 56px;    
+    font-size: 56px;
+    font-weight: bold;
     line-height: 60px;
     letter-spacing: 0.02em;
     text-align: center;
 }
-.button {
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+/* Треба щось придумати з кнопкою */
+
+.feature {
+    color: #2E2F42;
+    background-color: #FFFFFF;
 }
-.button:hover {
-    color: #FFFFFF;
-    background-color: #404BBF;
+.feature-title {
+    font-weight: Medium;
 }
