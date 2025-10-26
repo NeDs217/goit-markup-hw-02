@@ -1,17 +1,39 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Oswald', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
 ul, ol {
     list-style-type: none;
 }
-a {
+.link {
     text-decoration: none;
+    color: #2E2F42;
+}
+.link:hover {
+    color: #404BBF;
+}
+.link:active {
+    color: #404BBF;
+}
+.adress-list .link {
+    color: #434455;
 }
 .hero {
     background-color: #2E2F42;
 }
 .hero-title {
     color: #FFFFFF;
+    font-size: 56px;    
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+.button:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
