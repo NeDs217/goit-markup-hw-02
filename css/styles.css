@@ -48,13 +48,13 @@ ul, ol {
     white-space: nowrap;
     border: 0;
 }
-.feature-list > h3 {
+.feature-list h3 {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-.feature-list > p {
+.feature-list p {
     color: #434455;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -66,13 +66,13 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
 }
-.team-title >h3 {
+.team-title h3 {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-.team-title > p {
+.team-title p {
     color: #2E2F42;
     font-size: 16px;
     letter-spacing: 0.02em;
