@@ -13,11 +13,11 @@ ul, ol {
     text-decoration: none;
     color: #2E2F42;
 }
-.adress {
+adress {
     text-decoration: none;
     font-style: none;
 }
-.link-site {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -93,21 +93,21 @@ ul, ol {
     color: #2E2F42;
     background-color: #F4F4FD;
 }
-.team-title{
-    font-size: 36px
+.team-title {
+    font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.team-title h3 {
+.team-list h3 {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.2;
 }
-.team-title p {
+.team-list p {
     color: #2E2F42;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -116,6 +116,26 @@ ul, ol {
 .portfolio {
     color: #2E2F42;
     background-color: #FFFFFF;
+}
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.portfolio-list h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+.portfolio-list p {
+    color: #2E2F42;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 .hero-button {
     font-size: 16px;
