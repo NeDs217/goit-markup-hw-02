@@ -44,7 +44,7 @@ ul, ol {
 .link:active {
     color: #404BBF;
 }
-.adress {
+.main-address {
     font-style: normal;
 }
 .adress-list .link {
@@ -141,7 +141,7 @@ ul, ol {
     line-height: 1.2;
 }
 .portfolio-list p {
-    color: #2E2F42;
+    color: #434455;
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
@@ -175,6 +175,7 @@ ul, ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4D5AE5;
+    text-transform: uppercase;
 }
 .footer-paragraph {
     line-height: 1.5;
