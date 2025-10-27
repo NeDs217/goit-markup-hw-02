@@ -15,6 +15,26 @@ ul, ol {
 }
 .adress {
     text-decoration: none;
+    font-style: none;
+}
+.link-site {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.name-one {
+    font-family: "Raleway", sans-serif;
+    color: #2e2f42;
+    text-transform: uppercase;
+}
+.page-nav {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .link:hover,
 .link:focus {
@@ -26,6 +46,8 @@ ul, ol {
 }
 .adress-list .link {
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em
 }
 
 .adress-list .link:hover,
@@ -40,7 +62,7 @@ ul, ol {
     color: #FFFFFF;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -71,6 +93,13 @@ ul, ol {
     color: #2E2F42;
     background-color: #F4F4FD;
 }
+.team-title{
+    font-size: 36px
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
 .team-title h3 {
     color: #2E2F42;
     font-size: 20px;
@@ -84,21 +113,6 @@ ul, ol {
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
-.name-one {
-    font-family: "Raleway", sans-serif;
-    color: #4D5AE5;
-    text-transform: uppercase;
-}
-.name-two {
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    color: #2E2F42;
-}
-.name-two-footer {
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
 .portfolio {
     color: #2E2F42;
     background-color: #FFFFFF;
@@ -109,14 +123,12 @@ ul, ol {
     background-color: #4D5AE5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    
+    font-weight: 500;
+    cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404BBF;
-}
-.link-site {
-    text-decoration: none;
 }
 .footer {
     background-color: #2E2F42;
