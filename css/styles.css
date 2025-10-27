@@ -44,6 +44,9 @@ ul, ol {
 .link:active {
     color: #404BBF;
 }
+.adress {
+    font-style: normal;
+}
 .adress-list .link {
     color: #434455;
     line-height: 1.5;
@@ -93,6 +96,9 @@ ul, ol {
     color: #2E2F42;
     background-color: #F4F4FD;
 }
+.team-li {
+    background-color: #FFFFFF;
+}
 .team-title {
     font-size: 36px;
     line-height: 1.11;
@@ -112,6 +118,9 @@ ul, ol {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
+}
+.portf-p {
+    color: #434455;
 }
 .portfolio {
     color: #2E2F42;
@@ -157,7 +166,7 @@ ul, ol {
 .name-footer {
     color: #f4f4fd;
 }
-.footer-paragraph {
+.link-site-footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-family: "Raleway", sans-serif;
@@ -165,6 +174,10 @@ ul, ol {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4D5AE5;
+}
+.footer-paragraph {
+    line-height: 1.5;
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
 }
