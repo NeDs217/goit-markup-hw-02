@@ -1,3 +1,6 @@
+/* font-family: "Roboto",
+sans-serif; */
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -10,7 +13,11 @@ ul, ol {
     text-decoration: none;
     color: #2E2F42;
 }
-.link:hover {
+.adress {
+    text-decoration: none;
+}
+.link:hover,
+.link:focus {
     text-decoration: none;
     color: #404BBF;
 }
@@ -20,44 +27,45 @@ ul, ol {
 .adress-list .link {
     color: #434455;
 }
+
+.adress-list .link:hover,
+.adress-list .link:focus {
+    color: #404BBF;
+}
+
 .hero {
     background-color: #2E2F42;
 }
 .hero-title {
     color: #FFFFFF;
     font-size: 56px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.02em;
     text-align: center;
 }
-/* Треба щось придумати з кнопкою */
-
 .feature {
     color: #2E2F42;
     background-color: #FFFFFF;
 }
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
+.feature-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
 }
 .feature-list h3 {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.02em;
+    line-height: 1.2;
 }
 .feature-list p {
     color: #434455;
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 .team {
     color: #2E2F42;
@@ -68,9 +76,49 @@ ul, ol {
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.02em;
+    line-height: 1.2;
 }
 .team-title p {
     color: #2E2F42;
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+.name-one {
+    font-family: "Raleway", sans-serif;
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+.name-two {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+.name-two-footer {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.portfolio {
+    color: #2E2F42;
+    background-color: #FFFFFF;
+}
+.hero-button {
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #4D5AE5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+.link-site {
+    text-decoration: none;
+}
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
 }
