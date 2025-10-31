@@ -1,6 +1,6 @@
 /* font-family: "Roboto",
 sans-serif; */
-
+/* #region common */
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -13,6 +13,18 @@ ul, ol {
     text-decoration: none;
     color: #2E2F42;
 }
+.link:hover,
+.link:focus {
+    text-decoration: none;
+    color: #404BBF;
+}
+
+.link:active {
+    color: #404BBF;
+}
+/* #endregion common */
+
+/* #region header */
 .main-address {
     text-decoration: none;
     font-style: none;
@@ -36,14 +48,7 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.link:hover,
-.link:focus {
-    text-decoration: none;
-    color: #404BBF;
-}
-.link:active {
-    color: #404BBF;
-}
+
 .main-address {
     font-style: normal;
 }
@@ -57,7 +62,9 @@ ul, ol {
 .adress-list .link:focus {
     color: #404BBF;
 }
+/* #endregion header */
 
+/* #region hero */
 .hero {
     background-color: #2E2F42;
 }
@@ -69,6 +76,25 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
 }
+.hero-button {
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #4D5AE5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+/* #endregion hero */
+
+/* #region feature */
+
 .feature {
     color: #2E2F42;
     background-color: #FFFFFF;
@@ -92,6 +118,12 @@ ul, ol {
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
+
+
+/* #endregion feature */
+
+/* #region team */
+
 .team {
     color: #2E2F42;
     background-color: #F4F4FD;
@@ -119,6 +151,10 @@ ul, ol {
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
+
+/* #endregion team */
+
+/* #region portfolio */
 .portf-p {
     color: #434455;
 }
@@ -146,19 +182,11 @@ ul, ol {
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
-.hero-button {
-    font-size: 16px;
-    line-height: 1.5;
-    background-color: #4D5AE5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    font-weight: 500;
-    cursor: pointer;
-}
-.hero-button:hover,
-.hero-button:focus {
-    background-color: #404BBF;
-}
+
+/* #endregion portfolio */
+
+
+/* #region footer */
 .footer {
     background-color: #2E2F42;
     color: #F4F4FD;
@@ -182,3 +210,4 @@ ul, ol {
     color:#F4F4FD;
     letter-spacing: 0.02em;
 }
+/* #endregion footer */
